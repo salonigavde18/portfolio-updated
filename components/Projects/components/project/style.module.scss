@@ -1,0 +1,57 @@
+.project {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-top: 1px solid rgb(201, 201, 201);
+    cursor: pointer;
+    transition: all 0.2s;
+    color: black;
+
+    & h2 {
+        font-size: 40px;
+        margin: 0;
+        font-weight: 400;
+        transition: all 0.4s;
+    }
+
+    & p {
+        transition: all 0.4s;
+        font-weight: 300;
+    }
+
+    &:last-of-type {
+        border-bottom: 1px solid rgb(201, 201, 201);
+    }
+
+    &:hover {
+        opacity: 0.5;
+
+        & h2 {
+            transform: translateX(-10px);
+        }
+
+        & p {
+            transform: translateX(10px);
+        }
+    }
+}
+
+// Media query for iPhone SE and small screens
+@media (max-width: 1061px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+
+        & h2 {
+            font-size: 24px;
+            text-align: left;
+            width: 100%;
+        }
+
+        & p{
+            text-indent: -9999px; 
+        }
+    }
+}
