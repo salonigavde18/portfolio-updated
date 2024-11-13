@@ -79,7 +79,7 @@ const Hero = () => {
         </div>
       </div>
       <div data-scroll data-scroll-speed={0.1} className={styles.description}>
-        <p className='font-2xl font-semibold'>HI,<br/>I'M SALONI <br/>I DESIGN & CODE</p>
+        <p className='font-2xl font-semibold'>HI,<br/>I&apos;M SALONI <br/>I DESIGN & CODE</p>
       </div>
     </motion.main>
   );

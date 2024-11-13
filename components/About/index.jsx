@@ -23,7 +23,7 @@ const scaleAnimation = {
   },
 };
 
-export default function AboutMe() {
+export default function About() {
   const cursorLabel = useRef(null);
   const [modal, setModal] = useState({ active: false, index: 0 });
   const { active, index } = modal;

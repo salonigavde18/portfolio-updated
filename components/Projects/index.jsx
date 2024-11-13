@@ -5,7 +5,6 @@ import Project from './components/project';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
-import Rounded from '../../common/RoundedButton';
 
 const projects = [
   {
@@ -104,7 +103,7 @@ export default function Home() {
       className={styles.projects}
     >
       <div><h2 className='text-6xl mb-12 text-center'>My Projects</h2></div>
-      <div className={styles.body} id="work">
+      <div className={styles.body} id="project">
         {projects.map((project, index) => {
           return (
             <Project

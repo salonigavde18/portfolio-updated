@@ -9,7 +9,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Rounded from '../../common/RoundedButton';
 import Magnetic from '../../common/Magnetic';
 
-export default function index() {
+export default function Navbar() {
     const header = useRef(null);
     const [isActive, setIsActive] = useState(false);
     const pathname = usePathname();
@@ -58,12 +58,6 @@ export default function index() {
                 <Magnetic>
                     <div className={styles.el}>
                         <a href='#project' className={styles.t1}>Projects</a>
-                        <div className={styles.indicator}></div>
-                    </div>
-                </Magnetic>
-                <Magnetic>
-                    <div className={styles.el}>
-                        <a href='#contact' className={styles.t1}>Contact</a>
                         <div className={styles.indicator}></div>
                     </div>
                 </Magnetic>
