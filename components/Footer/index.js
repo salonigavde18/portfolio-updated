@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="container mx-auto text-center space-y-4">
         {/* Contact Information */}
         <div className="footer-item">
-          <p className="text-6xl mb-12 text-center">Let's work together :)</p>
+          <p className="text-6xl mb-12 text-center">Let&apos;s work together!!</p>
           <p className='text-[#33333] text-xl'>
             Email: <a href="mailto:saloniigavde2002@gmail.com" className="hover:underline text-black text-xl">saloniigavde2002@gmail.com</a>
           </p>
