@@ -103,11 +103,7 @@ export default function Home() {
       }}
       className={styles.projects}
     >
-      <div className={styles.work}>
-        <Rounded>
-          <p>Some of my work</p>
-        </Rounded>
-      </div>
+      <div><h2 className='text-6xl mb-12 text-center'>My Projects</h2></div>
       <div className={styles.body} id="work">
         {projects.map((project, index) => {
           return (
