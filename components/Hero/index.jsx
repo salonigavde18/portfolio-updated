@@ -74,8 +74,8 @@ const Hero = () => {
       />
       <div className={styles.sliderContainer}>
         <div ref={slider} className={styles.slider}>
-          <p ref={firstText}>Fullstack Web Developer -</p>
-          <p ref={secondText}>Fullstack Web Developer -</p>
+          <p ref={firstText}>Web Designer - </p>
+          <p ref={secondText}>Web Developer - </p>
         </div>
       </div>
       <div data-scroll data-scroll-speed={0.1} className={styles.description}>

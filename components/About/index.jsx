@@ -70,20 +70,7 @@ export default function About() {
         </h1>
         <div className="text-[#2E2123] about-text text-sm sm:text-base md:text-lg lg:text-xl mb-8 z-1 px-4 sm:px-6 md:px-8">
           <p>
-            A passionate full-stack developer with a strong focus on crafting
-            immersive, user-centric experiences. <br /> I am dedicated to
-            delivering applications that seamlessly blend functionality with
-            captivating design. <br /> My background combines creativity and
-            technical proficiency, allowing me to bridge design and development
-            effortlessly. <br /> I thrive on exploring and implementing the
-            latest technologies, always staying updated to push each project{" "}
-            <br />
-            forward. With expertise in both front-end and back-end development,{" "}
-            <br /> I aim to build impactful applications that resonate with
-            users and drive meaningful interactions. <br /> From complex,
-            dynamic interfaces to optimized, robust back-end structures, <br />{" "}
-            my goal is to create solutions that are innovative, efficient, and
-            tailored to user needs.
+          Crafting seamless, user-centric experiences through intuitive design and interactive front-end solutions.<br/> Bridging UI/UX creativity with technical expertise to deliver impactful, modern applications.
           </p>
         </div>
 

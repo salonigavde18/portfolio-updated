@@ -39,7 +39,7 @@ export default function Navbar() {
                 <div className={styles.name}>
                     <p className={styles.codeBy}>SALONI</p>
                     <p className={styles.dennis}>GAVDE</p>
-                    <p className={styles.snellenberg}> Frontend Developer</p>
+                    <p className={styles.snellenberg}>Designer & Developer</p>
                 </div>
             </div>
             <div className={styles.nav}>

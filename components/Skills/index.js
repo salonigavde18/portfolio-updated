@@ -4,6 +4,18 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 const skills = {
+  "ui/ux": [
+    { title: 'Figma' },
+    { title: 'Prototyping' },
+    { title: 'Wireframing' },
+    { title: 'User Research' },
+    { title: 'Accessibility Design' },
+    { title: 'Interaction Design' },
+    { title: 'Responsive Design' },
+    { title: 'Usability Testing' },
+    { title: 'Information Architecture' },
+    { title: 'Journey Mapping' },
+  ],
   "frontend": [
     { title: 'HTML' },
     { title: 'CSS' },
@@ -11,25 +23,7 @@ const skills = {
     { title: 'React.js' },
     { title: 'TailwindCSS' },
     { title: 'GSAP' },
-    { title: 'Framer Motion' },
-    { title: 'Next.js' },
-  ],
-  "backend": [
-    { title: 'Node.js' },
-    { title: 'Express.js' },
-    { title: 'Stripe' },
-  ],
-  "databases": [
-    { title: 'My SQL' },
-    { title: 'MongoDB' },
-    { title: 'Firebase' },
-    { title: 'Prisma' },
-  ],
-  "ui/ux": [
-    { title: 'Figma' },
-    { title: 'Prototyping' },
-    { title: 'Wireframing' },
-    { title: 'User Research' },
+    { title: 'Framer Motion' }
   ],
 };
 
